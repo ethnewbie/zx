@@ -1,0 +1,21 @@
+100.110.47.70 recon > 81.94.151.47
+100.124.233.79 RCE > 185.146.88.206  chippower.com.tr ipconfig
+100.73.102.48 RCE > 37.148.212.98
+100.105.49.128 predator > 185.221.212.108
+100.94.19.96 RCE > GADA IP PUBLIK sinma
+100.93.222.105 > 100.49.174.82
+100.116.113.70:3390
+100.107.239.81 > 74.225.12.34
+Farel34153431!
+softgenics
+
+44<43:35:05,  1.82host/s][VULNERABLE] gini4us.co.kr - Status: 303
+
+Scanning:  90%|████████████████▏ | 761625/845927 [82:16:07<6:29:25,  3.61host/s][VULNERABLE] siasoft.co.kr - Status: 303
+
+Scanning:  91%|███████████████▌ | 771561/845927 [83:40:36<15:53:34,  1.30host/s][VULNERABLE] softdown.co.kr - Status: 303
+
+Scanning:  92%|████████████████▍ | 775118/845927 [84:11:06<5:28:04,  3.60host/s][VULNERABLE] sp31.co.kr - Status: 303
+
+Scanning:  99%|███████████████████▊| 840136/845927 [92:45:54<35:38,  2.71host/s][VULNERABLE] yongpyongvalley.co.kr - Status: 303
+Scanning: 100%|████████████████████| 845927/845927 [93:32:06<00:00,  2.51host/s]

